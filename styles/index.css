@@ -110,6 +110,7 @@ header nav {
     padding: 1em 2em;
     background-color: var(--section-dark);
     flex-direction: column;
+    z-index: 999;
     display: none;
     transition: all .3s ease;
 }
