@@ -1,0 +1,35 @@
+#about {
+    background-color: var(--section-light);
+}
+
+#about .about-content h2 {
+    color: var(--dark);
+}
+
+#about .about-content p {
+    color: var(--text-dark);
+}
+
+#wcu {
+    background-color: var(--section-dark);
+}
+
+#wcu .wcu-list-container p {
+    color: var(--text-light);
+}
+
+#wcu .wcu-list-container .list-heading h3 {
+    color: var(--light);
+}
+
+#wcu .wcu-content p {
+    color: var(--text-light);
+}
+
+#wcu .wcu-content h2 {
+    color: var(--light);
+}
+
+#invitation .invitation-container p {
+    max-width: 35ch;
+}

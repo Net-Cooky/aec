@@ -1,0 +1,44 @@
+#services-all {
+    padding: 5em 3em;
+}
+
+#services-all .service-box {
+    background-color: var(--service-box);
+    padding: 2em 2em;
+    border-radius: 1em;
+    transition: background-color .3s ease;
+}
+
+#services-all .service-box:hover {
+    background-color: var(--section-dark)
+}
+
+#services-all .service-box:hover h4 {
+    color: var(--light);
+}
+
+#services-all .service-box:hover p {
+    color: var(--text-light);
+}
+
+#services-all h4 {
+    font-size: 1.4rem;
+    margin-bottom: .5em;
+}
+
+#services-all p {
+    font-size: 1.2rem;
+    color: var(--text-dark);
+}
+
+#services-all .services-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 2em;
+}
+
+@media screen and (max-width: 768px) {
+    #services-all .services-container {
+        grid-template-columns: 1fr;
+    }
+}
