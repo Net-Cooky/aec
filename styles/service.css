@@ -41,4 +41,8 @@
     #services-all .services-container {
         grid-template-columns: 1fr;
     }
+
+    #services-all {
+        padding: 2em 2em;
+    }
 }
